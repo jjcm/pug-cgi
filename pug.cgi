@@ -9,5 +9,13 @@ if(filename === undefined){
 
 var pug = require('pug')
 
-var html = pug.renderFile(filename, {pretty: true})
-console.log(html)
+try {
+  var html = pug.renderFile(filename, {pretty: true})
+  console.log(html)
+}
+catch (err) {
+  console.log('')
+  console.log('<pre>')
+  console.log(err.message)
+  console.log('</pre>')
+}
