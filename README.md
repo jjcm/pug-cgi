@@ -1,4 +1,4 @@
-# Apache CGI for [pug](https://pugjs.org/)
+# Apache CGI for [pug](https://pugjs.org/) and [jade](http://jade-lang.com)
 
 A simple dynamic compiler for pug that uses Apache's CGIs. It will interpret anything ending in .pug and return it as html. 
 
@@ -7,7 +7,7 @@ A simple dynamic compiler for pug that uses Apache's CGIs. It will interpret any
 Copy pug.cgi to a shared library location. I generally stick mine in 
 
 ``` bash
-/usr/lib/cgi-bin//
+/usr/lib/cgi-bin/
 ```
 
 Be sure to add +x to it so it can be ran as a script
