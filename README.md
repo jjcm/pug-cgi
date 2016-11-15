@@ -52,3 +52,6 @@ Restart apache and you should now be able to interpret pug files. I like to add 
 
 Performance isn't tremendously great simply because it has to initialize on every render. This adds a good 300ms to your page response time. Not terrible for development, but if you're running this on production servers I'd hide it behind varnish or nginx set up as a reverse proxy to cache the pages. 
 
+# Related
+
+[Stylus CGI](https://github.com/jjcm/stylus-cgi)
